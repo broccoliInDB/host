@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.mount('edu-engine2', {path:'/abort-route'});
 });
 
 export default Router;
